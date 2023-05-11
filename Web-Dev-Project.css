@@ -1,0 +1,161 @@
+body {
+    background-color: #141414;
+    background-image: url(assests/phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 60%;
+    
+
+    color: #FFFF;
+
+    overflow: hidden;
+
+    box-shadow:  inset 0 0 30px 10px #6321FC;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns:  0.1fr repeat(4 , 1fr);
+    grid-template-rows: repeat(3, 1fr) 0.9fr;
+    grid: column gap 1rem;
+    grid: row gap 1rem;
+
+} 
+
+aside {
+
+    grid-column: 1;
+    grid-row: 1 / 4;
+
+    align-self: flex-end;
+
+
+    background-color:#282828;
+    box-shadow: 0 0 30px 10px #6321FC;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 65px;
+}
+
+li i {
+    display: block;
+    color: #FFFF;
+    padding: 60px 15px;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+
+i:hover {
+    color: #6321FC;
+    animation: myAnim 2s ease 0s infinite  normal forwards;
+
+}
+
+
+.nested {
+    display: grid;
+
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+main {
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+
+}
+
+
+#Hello {
+    font-size: 25px;
+
+    grid-column: 2;
+    grid-row: 2;
+
+    justify-self: center;
+    align-self: center;
+
+    font-family: Helvetica;
+
+    transform:   rotate(28deg) translate(5px, -100px) skew(-20deg, -3.5deg);
+
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #6321FC,
+        0 0 80px #6321FC,
+        0 0 90px #6321FC,
+        0 0 100px #6321FC,
+        0 0 150px #6321FC;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+
+
+#Neon-O {
+
+    grid-column: 2;
+    grid-row: 2;
+
+    justify-self: center;
+    align-self: center;
+
+    font-size: 50px;
+    font-family: Arial;
+
+    color: #fff;
+    animation: flicker 1.5s infinite alternate;
+
+    transform:   rotate(27deg) translate(-85px, 90px) skew(-20deg, 0deg);
+
+
+  }
