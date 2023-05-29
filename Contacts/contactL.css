@@ -3,7 +3,7 @@ body {
     color: #141414;
 }
     
-
+/*grid*/
 .container {
 
     display: grid;
@@ -37,7 +37,7 @@ a {
     padding: 90px;
 }
 
-
+/*jelly animation*/
 @keyframes myAnim {
     0% {
         transform: scale3d(1, 1, 1);
@@ -113,7 +113,7 @@ header {
         box-shadow: none;
     }
 }
-
+/*glow still animation*/
 @keyframes glow-h1 {
 
         0%,
@@ -152,7 +152,7 @@ h1 {
     animation: glow-h1 1s infinite alternate;
 }
 
-
+/*nested grid insde main*/
 .nested {
     display: grid;
 
@@ -168,6 +168,8 @@ main {
     grid-row: 4;
 
 }
+
+/*icons*/
 
 .fa {
     padding: 70px;
@@ -288,7 +290,7 @@ main {
 
     justify-self: center;
 }
-
+/*toggle for dark andlight mode*/
 #check {
     appearance: none;
     position: relative;

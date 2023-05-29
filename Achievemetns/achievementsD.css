@@ -2,7 +2,7 @@ body {
     background-color: #141414;
     color: #FFFF;
 }
-
+/*grid*/
 .container {
 
     display: grid;
@@ -38,7 +38,7 @@ a {
     color: #FFFF;
     padding: 90px;
 }
-
+/*jelly animation*/
 @keyframes myAnim {
     0% {
         transform: scale3d(1, 1, 1);
@@ -241,6 +241,7 @@ main {
     font-family: Helvetica;
 
 }
+/*nested grid in main*/
 .nested {
     display: grid;
 
@@ -295,6 +296,7 @@ video {
     animation: vid_flicker 3s infinite alternate;
 
 }
+/*toggle for dark andlight mode*/
 #check {
     appearance: none;
     position: relative;

@@ -3,7 +3,7 @@ body {
     color: #141414;
 }
     
-
+/*grid*/
 .container {
 
     display: grid;
@@ -38,7 +38,7 @@ a {
     padding: 90px;
 }
 
-
+/*Jelly animation*/
 @keyframes myAnim {
 	0% {
 		transform: scale3d(1, 1, 1);
@@ -82,7 +82,7 @@ header {
     grid-row: 2;
     
 }
-
+/*used to implement the scroll effect in the laptop image*/
 .wrapper {
     width: 100%;
     height: 500px;
@@ -120,6 +120,8 @@ main {
     grid: row gap 1rem;
 
 }
+
+/*P tags*/
 
 #Intro {
     grid-column: 1 / -1;
@@ -210,7 +212,7 @@ main {
 }
 
 
-
+/*toggle for dark andlight mode*/
 #check {
     appearance: none;
     position: relative;
