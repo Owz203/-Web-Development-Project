@@ -1,6 +1,6 @@
 body {
     background-color: #141414;
-    background-image: url(assests/phone.jpg);
+    background-image: url(/assests/phone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 60%;
