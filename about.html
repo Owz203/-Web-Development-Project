@@ -3,7 +3,7 @@
 
 <head>
     <title>Owain's Profolio</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" id="cssFileAbout" href="/StyleSheets/aboutD.css">
     <script src="https://kit.fontawesome.com/3534fb6ddb.js" crossorigin="anonymous"></script>
 </head>
 
@@ -14,12 +14,13 @@
     </header>
 
     <nav>
-        <a href="Web-Dev-Project.html"><i class="fa-solid fa-house fa-2xl"></i></a></li>
-        <a href="about.html"><i class="fa-solid fa-user fa-2xl"></i></a></li>
-        <a href="Achievements.html"><i class="fa-solid fa-trophy fa-2xl"></i></a></li>
-        <a href="Contact.html"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
-        <a href="Settings.html"><i class="fa-solid fa-gear fa-2xl"></i></li></a>
-
+        <input id="check" type="checkbox" onclick="themeAbout()">
+        
+        <a href="Web-Dev-Project.html"><i class="fa-solid fa-house fa-2xl"></i></a>
+        <a href="about.html"><i class="fa-solid fa-user fa-2xl"></i></a>
+        <a href="Achievements.html"><i class="fa-solid fa-trophy fa-2xl"></i></a>
+        <a href="Contact.html"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+        <a href="Settings.html"><i class="fa-solid fa-gear fa-2xl"></i></a>
     </nav>
 
     <main class="nested">
@@ -48,8 +49,12 @@
             <p>What made me interested in Computers. I first got interested when my uncle introduced me to the world of computers with his line of work. I’ve been interested ever since. I also grew and expanded my interest as I loved to learn more about computers and what you can do with them. The possibilities almost feel endless. Although technology can feel frustrating sometimes, I love to problem  solve so a good challenge is always exciting and overcoming those challenges gives me a great satisfaction.</p>
         </div>
 
-        <img  id="tech" src="assests/tech.jpg" alt="Computer surounded by other tech">
+        <img  id="tech" src="/assests/tech.jpg" alt="Computer surounded by other tech">
     </main>
+
+
+
+    <script src="settings.js"></script>
 
 
 </body>
