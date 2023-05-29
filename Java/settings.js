@@ -1,9 +1,9 @@
 function themeAbout() {
-    const css = document.getElementById("cssFileAbout");
-    const checkBox = document.getElementById("check");
+    const css = document.getElementById("cssFileAbout");// constant that holds the cssfile
+    const checkBox = document.getElementById("check");//constant checkbox
 
-    if (checkBox.checked == true) {
-        css.setAttribute("href","/About/aboutL.css")
+    if (checkBox.checked == true) {//if statement to check what input hasbeen gievn to the chck box
+        css.setAttribute("href","/About/aboutL.css")//allwos to swap files in html document
     } else {
         css.setAttribute("href","/About/aboutD.css")
     }
