@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 60%;
+
+    height: 100vh;
     
 
     color: #FFFF;

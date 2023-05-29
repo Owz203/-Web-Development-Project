@@ -3,9 +3,9 @@ function themeAbout() {
     const checkBox = document.getElementById("check");
 
     if (checkBox.checked == true) {
-        css.setAttribute("href","/StyleSheets/aboutL.css")
+        css.setAttribute("href","/About/aboutL.css")
     } else {
-        css.setAttribute("href","/StyleSheets/aboutD.css")
+        css.setAttribute("href","/About/aboutD.css")
     }
 
 }
@@ -15,9 +15,9 @@ function themeAchievements() {
 
     if (checkBox.checked == true) {
 
-        css.setAttribute("href","/StyleSheets/achievementsL.css")
+        css.setAttribute("href","/Achievemetns/achievementsL.css")
     } else {
-        css.setAttribute("href","/StyleSheets/achievementsD.css")
+        css.setAttribute("href","/Achievemetns/achievementsD.css")
     }
 
 }
@@ -27,9 +27,9 @@ function themeContact() {
 
     if (checkBox.checked == true) {
 
-        css.setAttribute("href","/StyleSheets/contactL.css")
+        css.setAttribute("href","/Contacts/contactL.css")
     } else {
-        css.setAttribute("href","/StyleSheets/contactD.css")
+        css.setAttribute("href","/Contacts/contactD.css")
     }
 
 }
